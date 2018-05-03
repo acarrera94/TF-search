@@ -1,7 +1,7 @@
 package project1
 import scala.io.Source
 
-object Tokenizer extends App {
+object Tokenizer {
 
   def run (): Seq[Any] = {
     val filename = "/Users/andrecarrera/Documents/school/2018sp/cs453/project1/src/textfiles/Doc (2).txt"
