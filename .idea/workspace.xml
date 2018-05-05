@@ -2,13 +2,336 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3019106-b762-405a-af49-d63b93817b1a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/project1/PorterStemmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/project1/Ranking.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/project1/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/project1/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (1).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (1).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (10).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (10).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (100).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (100).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (101).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (101).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (102).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (102).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (103).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (103).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (104).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (104).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (105).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (105).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (106).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (106).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (107).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (107).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (108).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (108).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (109).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (109).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (11).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (11).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (110).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (110).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (111).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (111).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (112).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (112).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (113).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (113).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (114).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (114).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (115).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (115).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (116).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (116).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (117).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (117).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (118).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (118).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (119).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (119).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (12).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (12).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (120).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (120).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (121).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (121).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (122).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (122).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (123).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (123).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (124).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (124).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (125).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (125).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (126).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (126).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (127).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (127).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (128).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (128).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (129).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (129).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (13).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (13).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (130).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (130).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (131).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (131).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (132).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (132).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (133).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (133).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (134).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (134).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (135).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (135).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (136).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (136).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (137).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (137).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (138).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (138).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (139).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (139).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (14).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (14).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (140).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (140).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (141).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (141).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (142).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (142).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (143).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (143).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (144).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (144).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (145).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (145).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (146).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (146).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (147).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (147).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (148).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (148).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (149).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (149).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (15).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (15).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (150).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (150).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (151).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (151).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (152).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (152).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (153).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (153).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (154).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (154).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (155).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (155).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (156).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (156).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (157).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (157).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (158).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (158).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (159).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (159).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (16).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (16).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (160).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (160).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (161).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (161).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (162).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (162).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (163).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (163).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (164).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (164).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (165).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (165).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (166).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (166).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (167).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (167).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (168).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (168).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (169).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (169).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (17).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (17).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (170).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (170).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (171).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (171).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (172).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (172).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (173).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (173).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (174).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (174).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (175).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (175).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (176).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (176).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (177).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (177).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (178).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (178).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (179).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (179).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (18).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (18).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (180).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (180).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (181).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (181).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (182).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (182).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (183).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (183).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (184).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (184).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (185).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (185).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (186).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (186).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (187).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (187).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (188).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (188).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (189).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (189).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (19).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (19).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (190).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (190).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (191).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (191).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (192).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (192).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (193).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (193).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (194).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (194).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (195).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (195).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (196).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (196).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (197).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (197).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (198).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (198).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (199).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (199).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (2).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (2).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (20).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (20).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (200).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (200).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (201).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (201).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (202).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (202).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (203).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (203).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (204).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (204).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (205).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (205).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (206).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (206).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (207).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (207).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (208).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (208).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (209).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (209).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (21).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (21).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (210).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (210).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (211).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (211).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (212).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (212).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (213).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (213).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (214).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (214).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (215).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (215).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (216).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (216).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (217).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (217).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (218).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (218).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (219).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (219).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (22).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (22).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (220).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (220).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (221).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (221).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (222).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (222).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (223).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (223).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (224).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (224).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (225).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (225).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (226).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (226).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (227).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (227).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (228).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (228).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (229).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (229).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (23).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (23).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (230).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (230).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (231).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (231).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (232).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (232).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (233).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (233).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (234).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (234).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (235).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (235).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (236).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (236).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (237).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (237).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (238).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (238).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (239).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (239).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (24).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (24).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (240).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (240).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (241).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (241).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (242).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (242).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (243).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (243).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (244).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (244).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (245).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (245).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (246).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (246).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (247).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (247).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (248).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (248).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (249).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (249).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (25).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (25).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (250).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (250).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (251).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (251).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (252).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (252).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (253).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (253).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (254).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (254).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (255).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (255).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (256).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (256).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (257).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (257).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (258).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (258).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (259).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (259).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (26).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (26).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (260).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (260).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (261).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (261).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (262).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (262).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (263).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (263).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (264).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (264).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (265).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (265).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (266).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (266).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (267).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (267).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (268).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (268).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (269).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (269).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (27).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (27).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (270).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (270).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (271).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (271).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (272).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (272).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (273).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (273).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (274).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (274).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (275).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (275).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (276).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (276).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (277).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (277).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (278).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (278).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (279).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (279).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (28).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (28).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (280).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (280).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (281).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (281).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (282).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (282).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (283).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (283).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (284).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (284).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (285).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (285).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (286).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (286).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (287).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (287).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (288).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (288).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (289).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (289).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (29).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (29).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (290).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (290).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (291).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (291).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (292).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (292).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (293).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (293).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (294).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (294).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (295).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (295).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (296).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (296).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (297).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (297).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (298).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (298).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (299).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (299).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (3).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (3).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (30).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (30).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (300).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (300).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (301).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (301).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (302).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (302).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (303).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (303).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (304).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (304).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (305).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (305).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (306).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (306).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (307).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (307).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (308).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (308).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (309).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (309).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (31).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (31).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (310).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (310).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (311).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (311).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (312).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (312).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (313).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (313).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (314).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (314).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (315).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (315).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (316).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (316).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (317).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (317).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (318).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (318).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (319).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (319).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (32).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (32).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (320).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (320).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (321).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (321).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (322).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (322).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (33).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (33).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (34).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (34).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (35).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (35).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (36).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (36).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (37).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (37).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (38).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (38).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (39).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (39).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (4).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (4).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (40).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (40).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (41).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (41).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (42).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (42).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (43).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (43).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (44).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (44).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (45).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (45).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (46).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (46).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (47).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (47).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (48).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (48).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (49).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (49).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (5).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (5).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (50).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (50).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (51).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (51).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (52).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (52).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (53).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (53).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (54).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (54).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (55).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (55).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (56).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (56).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (57).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (57).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (58).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (58).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (59).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (59).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (6).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (6).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (60).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (60).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (61).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (61).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (62).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (62).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (63).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (63).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (64).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (64).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (65).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (65).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (66).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (66).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (67).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (67).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (68).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (68).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (69).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (69).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (7).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (7).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (70).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (70).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (71).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (71).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (72).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (72).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (73).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (73).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (74).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (74).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (75).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (75).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (76).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (76).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (77).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (77).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (78).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (78).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (79).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (79).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (8).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (8).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (80).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (80).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (81).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (81).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (82).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (82).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (83).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (83).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (84).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (84).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (85).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (85).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (86).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (86).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (87).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (87).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (88).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (88).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (89).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (89).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (9).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (9).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (90).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (90).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (91).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (91).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (92).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (92).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (93).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (93).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (94).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (94).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (95).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (95).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (96).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (96).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (97).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (97).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (98).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (98).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textfiles/Doc (99).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Doc (99).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Tokenizer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Tokenizer$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Tokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/project1/Tokenizer.class" afterDir="false" />
     </list>
@@ -33,60 +356,11 @@
       <file leaf-file-name="Tokenizer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PorterStemmer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/project1/PorterStemmer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="-172">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
               <folding>
-                <element signature="e#14467#14468#0" expanded="true" />
-                <element signature="e#14507#14508#0" expanded="true" />
+                <element signature="e#17#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3615">
-              <caret line="276" selection-start-line="276" selection-end-line="276" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stopwords.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/textfiles/stopwords.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6735">
-              <caret line="449" column="1" selection-start-line="449" selection-start-column="1" selection-end-line="449" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StopWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/project1/StopWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/project1/run.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -94,17 +368,17 @@
       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="320">
+              <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <file leaf-file-name="Ranking.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Ranking.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32160">
-              <caret line="2221" column="18" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -119,6 +393,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jame</find>
+      <find>long</find>
+      <find>bond</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -130,8 +411,9 @@
         <option value="$PROJECT_DIR$/src/textfiles/dictionary.txt" />
         <option value="$PROJECT_DIR$/src/textfiles/stopwords.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/project1/StopWords.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/project1/PorterStemmer.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/project1/Ranking.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/project1/Main.scala" />
       </list>
     </option>
@@ -146,15 +428,14 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +452,12 @@
               <item name="project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,17 +474,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="textfiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +493,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/docs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,12 +649,14 @@
       <option name="presentableId" value="Default" />
       <updated>1525301128887</updated>
       <workItem from="1525301131380" duration="8490000" />
-      <workItem from="1525362662924" duration="557000" />
+      <workItem from="1525362662924" duration="607000" />
+      <workItem from="1525365690343" duration="1171000" />
+      <workItem from="1525453632341" duration="24151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9047000" />
+    <option name="totallyTimeSpent" value="34419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -385,17 +672,17 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -416,18 +703,41 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/project1/Main.scala</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/StopWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/run.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33315">
+          <caret line="2221" column="18" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -487,34 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32160">
-          <caret line="2221" column="18" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/textfiles/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6735">
           <caret line="449" column="1" selection-start-line="449" selection-start-column="1" selection-end-line="449" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3615">
-          <caret line="276" selection-start-line="276" selection-end-line="276" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/StopWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,28 +811,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="32160">
+          <caret line="2221" column="18" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (29).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (8).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (6).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (4).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (3).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (1).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/StopWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/project1/PorterStemmer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (13).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (12).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (11).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (10).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (15).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (16).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (14).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (17).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (18).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (28).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (27).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (26).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (25).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (24).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (23).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (22).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (21).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (20).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textfiles/Doc (19).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/Doc (14).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/Doc (16).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/Doc (15).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/Doc (1).txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Ranking.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/Doc (115).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Tokenizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
-            <element signature="e#14467#14468#0" expanded="true" />
-            <element signature="e#14507#14508#0" expanded="true" />
+            <element signature="e#17#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/project1/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="320">
+          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
         </state>
       </provider>
     </entry>

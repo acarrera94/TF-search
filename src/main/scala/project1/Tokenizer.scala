@@ -1,21 +1,26 @@
 package project1
 import scala.io.Source
-
+import java.io.{FileNotFoundException, IOException}
 object Tokenizer {
+  val punctuation = "[^\\p{L}\\p{Nd}]+"
 
-  def run (): Seq[Any] = {
-    val filename = "/Users/andrecarrera/Documents/school/2018sp/cs453/project1/src/textfiles/Doc (2).txt"
-    val dictionaryFilename = "/Users/andrecarrera/Documents/school/2018sp/cs453/project1/src/textfiles/dictionary.txt"
-    val punctuation = "[^\\p{L}\\p{Nd}]+"
 
-    def readFile(filename: String): Seq[String] = {
-      val bufferedSource = io.Source.fromFile(filename)
-      val lines = (for (line <- bufferedSource.getLines()) yield line).toList
-      bufferedSource.close
-      lines
-    }
-    val dictionary = readFile(dictionaryFilename)
+  val dictionary = readFile("/Users/andrecarrera/Documents/school/2018sp/cs453/project1/src/textfiles/dictionary.txt")
       .map(s => s.replaceAll(punctuation, ""))
+
+
+  def readFile(filename: String): List[String] = {
+    try {
+      Source.fromFile(filename, "ISO8859_1").getLines.toList
+    } catch {
+      case e: FileNotFoundException => List()
+      case e: IOException => List()
+    }
+  }
+
+  def run (filename :String): Seq[Any] = {
+
+
 
     def makeHyphenWord(x: String) = {
       val concatenated = x.replaceAll(punctuation, "")
@@ -34,7 +39,6 @@ object Tokenizer {
         case _ => List(any)
       }
 
-
     val lines = readFile(filename)
 
     val allWords = lines
@@ -45,7 +49,4 @@ object Tokenizer {
 
     allWords
   }
-
-
-
 }
