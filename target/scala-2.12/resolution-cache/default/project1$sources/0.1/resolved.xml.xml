@@ -4,7 +4,7 @@
 		module="project1$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180502170123"
+		publication="20180507173950"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

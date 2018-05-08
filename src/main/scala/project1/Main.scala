@@ -1,5 +1,7 @@
 package project1
 
+import project1.Tokenizer.readFile
+
 import scala.math.log
 object Main extends App {
 
@@ -35,25 +37,28 @@ object Main extends App {
   }
 
   def inverseDocumentFrequency(w: String):Double = {
-    log2(322 / allIndexed(stem(w)).length)
+    log2(322 / allIndexed(w).length)
   }
   def log2(x: Double): Double = scala.math.log(x)/scala.math.log(2)
 
-  def score(query: String, document: Int) = {
-    query.split(" ").map(s => {
-      val sco = termFrequency(s, document) * inverseDocumentFrequency(s)
-      if (sco.isNaN) 0.0
-      else sco
+  def score(query: String, document: Int):Array[(Double,Double)] = {
+    query.split(" ")
+      .filter(w => !(new StopWords).contains(w))
+      .map(w => stem(w)).filter(w => w != "Invalid term")
+      .map(s => {
+      val tf = termFrequency(s, document)
+      val sco = tf * inverseDocumentFrequency(s)
+      if (sco.isNaN) (0.0,0.0)
+      else (sco, tf)
     })
   }
 
   def termFrequency (word: String, document: Int ) :Double = {
     //frequency of a word in a document / max1(frequency(l,d)
-    val thisStem = allIndexed.get(stem(word))
+    val wordIndex = allIndexed.get(word)
 
-    if (thisStem.isEmpty) 0
-
-    val doc = thisStem.get
+    if (wordIndex.isEmpty) 0
+    val doc = wordIndex.get
       .find(doc => doc.index == document)
       .getOrElse(Document(0,0,0.0))
 
@@ -64,7 +69,7 @@ object Main extends App {
 
 
   def topScores(query: String) = {
-    (1 to 322).map(i => i -> score(query, i)).sortWith(_._2.sum > _._2.sum)
+    (1 to 322).map(i => i -> score(query, i)).sortWith(_._2.map(_._1).sum > _._2.map(_._1).sum)
   }
 
   val allIndexed = indexedWordsInDocuments(1)
@@ -73,11 +78,19 @@ object Main extends App {
 
 
   println("Enter a Query:")
+
+  def getFirstLine(doc: Int) = {
+    val filename = s"/Users/andrecarrera/Documents/school/2018sp/cs453/project1/src/docs/Doc (${doc.toString}).txt"
+    val lines = readFile(filename)
+    lines.head
+  }
+
   for (ln <- io.Source.stdin.getLines) {
-    topScores(ln.toLowerCase).foreach(a =>{
-      print(s"Doc: ${a._1}  Score: ${a._2.sum}")
-      a._2.foreach(b => print(s" $b "))
+    topScores(ln.toLowerCase).take(10).foreach(a =>{
+      print(s"Doc: ${a._1}  Score: ${a._2.map(_._1).sum} ")
+      a._2.foreach(b => print(s" TF_Score_ ${b._2} "))
       println
+      println(getFirstLine(a._1))
     })
   }
 
